@@ -1,0 +1,79 @@
+/* Reset/Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #022047;
+    background-image: url(img/12383.vresize.350.350.medium.32.png.webp);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+img {
+    max-width: 700px;
+    padding: 10px;
+}
+
+select {
+    margin: 50px 0;
+    font-size: 25px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #022047;
+    border: 2px solid #fff;
+    appearance: none;
+    background-image: none;
+    padding: 10px;
+    text-align: center;
+    text-align-last: center;
+    color: #fff;
+}
+
+
+.titulo {
+    padding-top: 10px;
+    font-size: 60px;
+}
+
+a {
+    color: #fff;
+}
+
+table {
+    width: 50%; /* Adjust the width as per your design */
+    border-collapse: collapse;
+    color: #fff; /* Text color */
+    background-color: #022047; /* Background color */
+    border: 2px solid #fff; /* Border color and size */
+    font-size: 35px; /* Font size */
+}
+
+th, td {
+    border: 2px solid #fff; /* Border color and size */
+    padding: 10px; /* Padding inside each cell */
+    text-align: center; /* Centering text inside cells */
+}
+
+th {
+    background-color: #00ceb8; /* Background color for header cells */
+}
+

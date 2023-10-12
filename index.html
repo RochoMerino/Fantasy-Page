@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlog Dropdown Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        function navigateToWeek() {
+            var selectElement = document.getElementById('weeks');
+            var selectedValue = selectElement.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <h1 class="titulo">
+        <a href="index.html">Dolphins Grill</a>
+    </h1>
+
+    <select name="weeks" id="weeks" onchange="navigateToWeek()">
+        <option value="" disabled selected>Team</option>
+    </select>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>QB</td>
+                <td>Justin Fields</td>
+            </tr>
+            <tr>
+                <td>RB</td>
+                <td>De'Von Achane</td>
+            </tr>
+            <tr>
+                <td>RB</td>
+                <td>Kyren Williams</td>
+            </tr>
+            <tr>
+                <td>WR</td>
+                <td>Tyreek Hill</td>
+            </tr>
+            <tr>
+                <td>WR</td>
+                <td>Keenan Allen</td>
+            </tr>
+            <tr>
+                <td>TE</td>
+                <td>Logan Thomas</td>
+            </tr>
+            <tr>
+                <td>W/R</td>
+                <td>Kenneth Walker</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <select name="weeks" id="weeks" onchange="navigateToWeek()">
+        <option value="" disabled selected>Week - 1 - Cachorro Lopez </option>
+    </select>
+
+    <img src="img/reaper.png" alt="reaper image">
+
+    <select name="weeks" id="weeks" onchange="navigateToWeek()">
+        <option value="" disabled selected>Week - 2 - Ricky - W</option>
+    </select>
+
+    <img src="img/Perras.png" alt="tyreek">
+
+    <select name="weeks" id="weeks" onchange="navigateToWeek()">
+        <option value="" disabled selected>Week - 3 - Patito 2 ez - W</option> 
+    </select>
+
+    <img src="img/tyreekcook.png" alt="tyreek">
+
+    <select name="weeks" id="weeks" onchange="navigateToWeek()">
+        <option value="" disabled selected>Week - 4 - Hernansito Trade</option>
+    </select>
+
+    <video width="640" height="480" controls>
+        <source src="vid/hernanvid.mp4" type="video/mp4">
+    </video>
+
+    <select name="weeks" id="weeks" onchange="navigateToWeek()">
+        <option value="" disabled selected>Week - 5 - Armando HIJO 0-5 - W</option>
+    </select>
+
+    <img src="img/armando.png" alt="arman">
+    <img src="img/stop.png" alt="arman2">
+    <img src="img/pooooop.png" alt="poopy">
+
+
+
+
+
+
+</body>
+</html>
