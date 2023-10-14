@@ -13,39 +13,54 @@ body, h1, ul {
 }
 
 body {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #022047;
-    background-image: url(img/12383.vresize.350.350.medium.32.png.webp);
+    background-color: #191C27;
+}
+
+.contenedor {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B3140;
+    padding: 70px;
+    border-radius: 30px;
 }
 
 a{
     text-decoration: none;
 }
 
-
 img {
     max-width: 700px;
     padding: 10px;
 }
 
-select {
+video {
+    max-width: 700px;
+    padding: 10px;
+}
+
+.titulo {
     margin: 50px 0;
+}
+
+.heading-h3 {
+    margin: 50px 0;
+    font-weight: 600;
     font-size: 25px;
     border-radius: 5px;
     outline: none;
-    background-color: #022047;
-    border: 2px solid #fff;
-    appearance: none;
-    background-image: none;
+    background-color: #30414C;
     padding: 10px;
     text-align: center;
-    text-align-last: center;
-    color: #fff;
+    color: #5DCBB8;
+    padding: 25px;
 }
 
 
@@ -59,11 +74,11 @@ a {
 }
 
 table {
-    width: 50%; /* Adjust the width as per your design */
+    width: 100%; /* Adjust the width as per your design */
     border-collapse: collapse;
     color: #fff; /* Text color */
-    background-color: #022047; /* Background color */
-    border: 2px solid #fff; /* Border color and size */
+    background-color: #2B3140; /* Background color */
+    border: 2px solid #2B3140; /* Border color and size */
     font-size: 35px; /* Font size */
 }
 
@@ -74,6 +89,41 @@ th, td {
 }
 
 th {
-    background-color: #00ceb8; /* Background color for header cells */
+    background-color: #5DCBB8; /* Background color for header cells */
 }
 
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .contenedor {
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    img, video {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .titulo {
+        font-size: 40px;
+        margin: 30px 0;
+    }
+
+    .heading-h3 {
+        font-size: 20px;
+        margin: 30px 0;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 18px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}
