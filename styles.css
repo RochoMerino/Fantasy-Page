@@ -63,6 +63,11 @@ video {
     padding: 25px;
 }
 
+.text-inside {
+    color: #fff;
+    margin: 20px 0;
+}
+
 
 .titulo {
     padding-top: 10px;
@@ -126,4 +131,5 @@ th {
     th, td {
         padding: 5px;
     }
+
 }
