@@ -78,6 +78,8 @@ a {
     color: #fff;
 }
 
+
+
 table {
     width: 100%; /* Adjust the width as per your design */
     border-collapse: collapse;
@@ -132,4 +134,8 @@ th {
         padding: 5px;
     }
 
+}
+
+.week-1{
+    margin-top: 0;
 }
